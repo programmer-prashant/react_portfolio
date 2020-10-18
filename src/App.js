@@ -8,8 +8,9 @@ import TitleMessage from './components/title-message/title-message.component';
 import ScrollDown from './components/scroll-down/scroll-down.component';
 import About from './pages/about/about.component';
 import { Parallax } from 'react-parallax';
-import Container from "react-bootstrap/Container";
-import Fade from "react-reveal/Fade";
+import Container from 'react-bootstrap/Container';
+import Fade from 'react-reveal/Fade';
+import Skills from './pages/skills/skills.component';
 
 const App = () => {
 	return (
@@ -33,6 +34,14 @@ const App = () => {
 						</Container>
 					</div>
 				</Parallax>
+			</div>
+
+			<div>
+				<Container className='container-box rounded'>
+					<Fade duration={500}>
+						<Skills />
+					</Fade>
+				</Container>
 			</div>
 		</div>
 	);
