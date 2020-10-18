@@ -120,15 +120,15 @@ export const skills = {
 			imgAltText: 'Flask',
 			imgSrc: L_SPRING,
 			skillName: 'Spring',
-    },
-    {
+		},
+		{
 			link: 'https://www.java.com/',
 			imgAltText: 'Servlet',
 			imgSrc: L_SERVLET,
 			skillName: 'Servlet',
 		},
-  ],
-  
+	],
+
 	hostingPlatforms: [
 		{
 			link: 'https://pages.github.com/',
@@ -136,23 +136,23 @@ export const skills = {
 			imgSrc: L_GITHUB_PAGES,
 			skillName: 'GitHub Pages',
 		},
-  ],
-  
-  operatingSystems: [
+	],
+
+	operatingSystems: [
 		{
 			link: 'https://www.microsoft.com/en-in/windows',
 			imgAltText: 'Windows',
 			imgSrc: L_WINDOW,
 			skillName: 'Windows',
-    },
-    {
+		},
+		{
 			link: 'https://www.apple.com/in/macos/catalina/',
 			imgAltText: 'mac',
 			imgSrc: L_MAC,
 			skillName: 'mac',
 		},
-  ],
-  
+	],
+
 	programmingLanguages: [
 		{
 			link: 'https://www.w3schools.in/c-tutorial/',
@@ -180,7 +180,6 @@ export const skills = {
 		},
 	],
 	databases: [
-	
 		{
 			link: 'https://www.microsoft.com/en-us/sql-server/sql-server-2019',
 			imgAltText: 'MS-SQL',
